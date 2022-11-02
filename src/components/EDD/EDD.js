@@ -33,7 +33,7 @@ function Projects() {
                 //imgPath={chatify}
                 isBlog={false}
                 title="Element B"
-                demoLink="https://docs.google.com/document/d/1mvufcl8rjvaroymI1N8UuThyPTnFhWTXzJ6YiNz9ouY/edit"
+                demoLink="https://docs.google.com/document/d/1OSGW-L6Jt3WCqHfIpMyfTZ9DQwgijhbdeIpJm2H0ffY/edit?usp=sharing"
                 description="Identification and Analysis of Prior Solutions" />
             </Col>
 

@@ -22,13 +22,6 @@ function Music() {
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "200px" }}>
           <Col md={4} className="project-card">
-          <iframe src='https://www.youtube.com/embed/E7wJTI-1dvQ'
-              frameborder='0'
-              width={270}
-              allow='autoplay; encrypted-media'
-              allowfullscreen
-              title='video'
-          />
             <ProjectCards
               //imgPath={chatify}
             isBlog={false}
@@ -39,13 +32,7 @@ function Music() {
             />
           </Col>
           <Col md={4} className="project-card">
-          <iframe src='https://www.youtube.com/embed/E7wJTI-1dvQ'
-              frameborder='0'
-              width={270}
-              allow='autoplay; encrypted-media'
-              allowfullscreen
-              title='video'
-          />
+
             <ProjectCards
               //imgPath={chatify}
             isBlog={false}

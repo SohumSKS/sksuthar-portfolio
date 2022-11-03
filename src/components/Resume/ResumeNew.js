@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/sohumsuthar/VRC-2360-SIngularity-22-23/c814586e13848ac4f091960ee4fb33827da388fd/resume.pdf";
+  "https://raw.githubusercontent.com/sohumsuthar/VRC-2360-SIngularity-22-23/5f86b1f253ec3f3d23558572147a6288ef953506/resume.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);

@@ -7,16 +7,17 @@ import ReactPlayer from "react-player";
 function ProjectCards(props) {
   return (
     <Card className="project-card-view">
-      {props.imgPath &&( <Card.Img variant="top" src={props.imgPath} />)}
+      {props.imgPath && (<Card.Img variant="top" src={props.imgPath} />)}
       <Card.Body>
         <Card.Title style={{ textAlign: "center" }} >{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
         {props.songLink && (
-          <ReactPlayer
+          <ReactPlayer 
             url={props.songLink}
-            width="350px"
+            style={{ justifyContent: "center" }}
+            width="300px"
             height="50px"
             playing={false}
             controls={true}
@@ -33,19 +34,14 @@ function ProjectCards(props) {
             {"Link"}
           </Button>
         )}
-
         {"\n"}
         {"\n"}
-
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
-
         {!props.isBlog && props.ghLink && (
           <Button variant="primary" href={props.ghLink} target="_blank">
             <BsGithub /> &nbsp;
             {props.isBlog ? "Blog" : "GitHub"}
           </Button>
         )}
-
       </Card.Body>
     </Card>
   );

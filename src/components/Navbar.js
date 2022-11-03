@@ -60,15 +60,6 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/about"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
-              </Nav.Link>
-            </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
@@ -111,6 +102,16 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> EDD Portfolio
               </Nav.Link>
             </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/about"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+              </Nav.Link>
+            </Nav.Item>
+
           </Nav>
         </Navbar.Collapse>
       </Container>

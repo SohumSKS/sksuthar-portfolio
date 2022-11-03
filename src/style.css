@@ -570,7 +570,13 @@ button:focus {
   background-image: var(--section-background-color) !important;
   color: white !important;
 }
+.react-player {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: auto !important;
 
+}
 .tech-icons {
   font-size: 4.5em !important;
   margin: 15px !important;

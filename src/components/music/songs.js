@@ -19,20 +19,22 @@ function Music() {
     <Container fluid className="project-section">
       <Particle />
       <Container>
-      <div>
-    </div>
+        <div>
+        </div>
         <h1 className="project-heading">
-          <strong className="purple">Produced by Me </strong>
+          <strong className="purple">Produced by Me (under construction)</strong>
         </h1>
-
-        
+        <p className="home-about-social">
+          Here are some snippets of my musical pieces. Contact me for pricing or for full songs.
+          <br />
+        </p>
         <Row style={{ justifyContent: "center", paddingBottom: "300px" }}>
           <Col md={4} className="project-card">
             <ProjectCards
               //imgPath={chatify}
               isBlog={false} title="EIGHTH DAY"
-              songLink = "https://raw.githubusercontent.com/sohumsuthar/VRC-2360-SIngularity-22-23/6206b9ac5a676c9398671041818d4d963c160329/new.mp3"
-              description="A hip hop beat featuring synths sampled from Mike Dean' EIGHTH DAY PART ONE. Made in FL Studio."
+              songLink="https://raw.githubusercontent.com/sohumsuthar/VRC-2360-SIngularity-22-23/6206b9ac5a676c9398671041818d4d963c160329/new.mp3"
+              description="A hip hop beat featuring computer synthesizers sampled from Mike Dean' EIGHTH DAY PART ONE. Made in FL Studio."
             />
           </Col>
 
@@ -41,9 +43,39 @@ function Music() {
               //imgPath={chatify}
               isBlog={false}
               title="Piano"
-              songLink = "https://raw.githubusercontent.com/sohumsuthar/VRC-2360-SIngularity-22-23/6911b61645847a533936b501f229eb1a3d60be55/piano.mp3"
+              songLink="https://raw.githubusercontent.com/sohumsuthar/VRC-2360-SIngularity-22-23/6911b61645847a533936b501f229eb1a3d60be55/piano.mp3"
 
-              description="A hip hop beat featuring piano and strings, sampled from Richard Claymore's Love Story. Made in FL Studio."
+              description="A hip hop beat featuring piano and strings, inspired by Richard Claymore's Love Story with the help of Ryan Lei. Made in FL Studio."
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCards
+              //imgPath={chatify}
+              isBlog={false}
+              title="ANRI"
+              //songLink = "https://raw.githubusercontent.com/sohumsuthar/VRC-2360-SIngularity-22-23/6911b61645847a533936b501f229eb1a3d60be55/piano.mp3"
+
+              description="A hip hop beat featuring a sample from ANRI, a Japanese pop singer, with the help of Ryan Lei. Made in FL Studio."
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCards
+              //imgPath={chatify}
+              isBlog={false}
+              title="VETERAN"
+              //songLink = "https://raw.githubusercontent.com/sohumsuthar/VRC-2360-SIngularity-22-23/6911b61645847a533936b501f229eb1a3d60be55/piano.mp3"
+
+              description="A hip hop/rap beat made from scratch using computer synthesizers. Made in FL Studio."
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCards
+              //imgPath={chatify}
+              isBlog={false}
+              title="SYNTHS"
+              //songLink = "https://raw.githubusercontent.com/sohumsuthar/VRC-2360-SIngularity-22-23/6911b61645847a533936b501f229eb1a3d60be55/piano.mp3"
+
+              description="An experimental song featuring computer synthesizers and synthesized electric guitar. Made in FL Studio."
             />
           </Col>
         </Row>

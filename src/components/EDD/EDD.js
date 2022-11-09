@@ -36,6 +36,14 @@ function Projects() {
                 demoLink="https://docs.google.com/document/d/1OSGW-L6Jt3WCqHfIpMyfTZ9DQwgijhbdeIpJm2H0ffY/edit?usp=sharing"
                 description="Identification and Analysis of Prior Solutions" />
             </Col>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                //imgPath={chatify}
+                isBlog={false}
+                title="Element C"
+                demoLink="https://docs.google.com/document/d/1hjJJn9n4IHS2aKs0ptYsnfy4kzeJZTfY7EBJyZlcSHw/edit?usp=sharing"
+                description="Justification of Design Specifications" />
+            </Col>
 
           </Row>
         </Container>

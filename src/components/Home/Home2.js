@@ -36,8 +36,8 @@ function Home2() {
               <br />
               My field of Interest's are:&nbsp;
               <i>
-                <b className="purple">Electrical Engieering </b> and
-                and integration of {" "}
+                <b className="purple">Electrical Engieering </b> and 
+                integration of {" "}
                 <b className="purple">
                   AI and Machine Learning.
                 </b>

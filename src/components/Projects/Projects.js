@@ -7,8 +7,9 @@ import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
-
+import blog from "../../Assets/Projects/blog.png";
+import ai from "../../Assets/Projects/AI.png";
+import mars from "../../Assets/Projects/mars.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -40,9 +41,9 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              //imgPath={editor}
+              imgPath={suicide}
               isBlog={false}
-              title="2022 VEX EDR Robotics"
+              title="2021 VEX EDR Robotics"
               description="Progammed in C++ using advanced math for high fidelity sensor programming."
               ghLink="https://github.com/sohumsuthar/VRC-2360-SIngularity-22-23"
               //demoLink="https://docs.google.com/document/d/1lh3AYdR2V4zIdTpO24tG1HMpoaHcadkZX031bctqgSs/edit?usp=sharing"
@@ -50,7 +51,27 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              //imgPath={editor}
+              imgPath={emotion}
+              isBlog={false}
+              title="2020 Acoustic Levitator"
+              description="To determine the nature of movement of three beads of varying density within an acoustic field of varying frequency."
+              //ghLink="https://github.com/sohumsuthar/portfolio"
+              demoLink="https://docs.google.com/document/d/1gtclfe1hiWl5CQ3kAAX0jjfAxGkqkD-Wo3U_UuJk_FE/edit?usp=sharing"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={mars}
+              isBlog={false}
+              title="2018 Durability of Martian Soil Bricks"
+              description="To determine whether a brick made from Earth soil and Mars soil (MMS1 and MMS2) will last longer and not crack while undergoing a test of durability."
+              //ghLink="https://github.com/sohumsuthar/portfolio"
+              demoLink="https://docs.google.com/document/d/1rqQ7vdI8uljrIvWcVBCMeWWbyqvirCT6SXBGin4oR90/edit?usp=sharing"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ai}
               isBlog={false}
               title="2021 VEX AI Robotics"
               description="Utilized AI with the NVidia Jetson Nano paired with depth perception cameras, progammed in C++ using advanced math for high fidelity sensor programming."
@@ -60,20 +81,20 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              //imgPath={editor}
+              imgPath={editor}
               isBlog={false}
               title="YouTube"
-              description="Utilized AI with the NVidia Jetson Nano paired with depth perception cameras, progammed in C++ using advanced math for high fidelity sensor programming."
+              description="YouTube channel managed by me for technology education."
               //ghLink="https://github.com/sohumsuthar/91008A-VEX-AI"
               demoLink="https://www.youtube.com/c/NanoBeasts"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              //imgPath={editor}
+              imgPath={blog}
               isBlog={false}
               title="Portfolio"
-              description="sohumsuthar.com!"
+              description="sohumsuthar.com! Programmed with node.js and react in VSCode"
               ghLink="https://github.com/sohumsuthar/portfolio"
               demoLink="https://www.sohumsuthar.com/"
             />

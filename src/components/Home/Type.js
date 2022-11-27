@@ -9,7 +9,7 @@ function Type() {
           "Developer",
           "Electrical Engineer",
           "Music Producer",
-          "Video Director",
+          "Video Editor",
         ],
         autoStart: true,
         loop: true,

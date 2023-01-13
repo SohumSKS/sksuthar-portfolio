@@ -84,15 +84,6 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/music"
-                onClick={() => updateExpanded(false)}
-              >
-                <CgMusic style={{ marginBottom: "2px" }} /> Music
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
                 to="/EDD"
                 onClick={() => updateExpanded(false)}
               >
@@ -117,3 +108,14 @@ function NavBar() {
 }
 
 export default NavBar;
+/*
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/music"
+                onClick={() => updateExpanded(false)}
+              >
+                <CgMusic style={{ marginBottom: "2px" }} /> Music
+              </Nav.Link>
+            </Nav.Item>
+        */

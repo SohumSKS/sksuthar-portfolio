@@ -49,8 +49,8 @@ function Projects() {
                 //imgPath={chatify}
                 isBlog={false}
                 title="Element D"
-                //demoLink="https://docs.google.com/document/d/1hjJJn9n4IHS2aKs0ptYsnfy4kzeJZTfY7EBJyZlcSHw/edit?usp=sharing"
-                description="[in-progess]" />
+                demoLink="https://docs.google.com/document/d/1_sObC-gRB9YgWM0w57Z59QbhyctGzYnp_3s_VX2eBXo/edit#heading=h.pzqzsbphsihq"
+                description="Design Concepts Generation, Analysis, Selection" />
             </Col>
           </Row>
         </Container>

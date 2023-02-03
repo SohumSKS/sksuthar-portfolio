@@ -49,7 +49,6 @@ function Projects() {
                 //imgPath={chatify}
                 isBlog={false}
                 title="Element D"
-<<<<<<< HEAD
                 demoLink="https://docs.google.com/document/d/1hjJJn9n4IHS2aKs0ptYsnfy4kzeJZTfY7EBJyZlcSHw/edit?usp=sharing"
                 description="Design Concepts Generation, Analysis, Selection" />
             </Col>
@@ -60,10 +59,6 @@ function Projects() {
                 title="Element G"
                 demoLink="https://docs.google.com/document/d/1GYm16wmiAligBJl5F19Wdar4SiL-xrEtctslzXiREwM/edit#heading=h.pu36syunw4t0"
                 description="Prototype Build Plan" />
-=======
-                demoLink="https://docs.google.com/document/d/1_sObC-gRB9YgWM0w57Z59QbhyctGzYnp_3s_VX2eBXo/edit#heading=h.pzqzsbphsihq"
-                description="Design Concepts Generation, Analysis, Selection" />
->>>>>>> 353852f018398e0375c512574f79caff402d42f9
             </Col>
           </Row>
         </Container>

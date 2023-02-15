@@ -317,6 +317,17 @@ button:focus {
   }
 }
 
+
+.EDD-problem-body {
+  padding-top: 15px !important;
+  padding-bottom: 0px;
+  color: white !important;
+  text-align: center !important;
+  font-size: large;
+}
+
+
+
 .home-about-section {
   position: relative;
   padding-bottom: 70px !important;
@@ -452,8 +463,8 @@ button:focus {
 }
 
 .project-card {
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
+  padding-top: 25px !important;
+  padding-bottom: 25px !important;
   padding-left: 25px !important;
   padding-right: 25px !important;
   height: auto !important;
@@ -487,7 +498,20 @@ button:focus {
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
+  border-radius: 2.7128572% !important;
+
 }
+
+.EDD-card-view{
+  box-shadow: 0 0px 10px 7px rgba(119, 53, 136, 0.459) !important;
+  color: white !important;
+  background-color: transparent !important;
+  opacity: 0.9 !important;
+  border-radius: 5% !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+}
+
 .project-card-view:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
@@ -529,7 +553,15 @@ button:focus {
   padding: 20px !important;
   opacity: 0.8 !important;
   border-radius: 10px !important;
+      border-radius: 50%;
+
 }
+
+.EDD-img-main {
+  padding: 0px !important;
+  border-radius: 5%;
+}
+
 
 .blog-img {
   padding: 0px !important;
@@ -554,6 +586,13 @@ button:focus {
 }
 .project-heading {
   color: white !important;
+  font-size: 2.3em !important;
+  font-weight: 500 !important;
+  padding-top: 10px !important;
+}
+.project-heading-SCORT {
+  color: white !important;
+  text-align: left;
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
@@ -623,6 +662,8 @@ button:focus {
 @media (max-width: 767px) {
   .about-img {
     padding-top: 0 !important;
+    border-radius: 50%;
+
   }
 }
 /* --------- */

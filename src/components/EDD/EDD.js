@@ -8,6 +8,7 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import EDD from "../../Assets/EDD.png";
 
 function Projects() {
   return (
@@ -15,8 +16,16 @@ function Projects() {
         <Particle />
         <Container>
           <h1 className="project-heading">
-            <strong className="purple">[lawn care re-imagined]</strong>
+            <strong className="purple">[lawn care, re-imagined]</strong>
           </h1>
+          <br/>
+          <img src={EDD} alt="about" width = "600" className="EDD-img-main" />
+          <Col md={15} className="EDD-problem-body">
+            <p className="EDD-problem-body">
+            Fifty-eight percent of homeowners with a lawn dislike mowing their lawn from a survey of over 1,000 people in 2008. Those who refuse to mow their own lawn spend an average of $45 every mow to keep their lawn trimmed. A majority of homeowners dislike lawn mowing due to the time it takes, the heat on warm days, and the noise from the lawnmower.
+            </p>
+          </Col>
+        
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <Col md={4} className="project-card">
               <ProjectCard
@@ -60,24 +69,15 @@ function Projects() {
                 demoLink="https://docs.google.com/document/d/1GYm16wmiAligBJl5F19Wdar4SiL-xrEtctslzXiREwM/edit#heading=h.pu36syunw4t0"
                 description="Prototype Build Plan" />
             </Col>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                //imgPath={chatify}
+                isBlog={false}
+                title="Element H"
+                demoLink="https://docs.google.com/document/d/1w2pMy-RvMidXPuNn6O4HXCIl5CZnFJVeTU4_yrqg5Yk/edit#heading=h.pzqzsbphsihq"
+                description="Prototype Testing & Data Collection Plan" />
+            </Col>
           </Row>
-        </Container>
-      <Container>
-        <Row>
-          <Col md={15} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              Problem Statement:
-            </h1>
-            <p className="home-about-body">
-            Fifty-eight percent of homeowners with a lawn dislike mowing their lawn from a survey of over 1,000 people in 2008. Those who refuse to mow their own lawn spend an average of $45 every mow to keep their lawn trimmed. A majority of homeowners dislike lawn mowing due to the time it takes, the heat on warm days, and the noise from the lawnmower. 
-
-              <br />
-              <br /> 
-
-
-            </p>
-          </Col>
-        </Row>
         </Container>
 
       </Container>

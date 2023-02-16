@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import Container from "react-bootstrap/Container";
+import { Container, Row, Col } from "react-bootstrap";
+
 import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
+import { FaLinkedinIn } from "react-icons/fa";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -39,7 +40,7 @@ function NavBar() {
   return (
     <Navbar
       expanded={expand}
-      
+
       fixed="top"
       expand="md"
 
@@ -61,7 +62,7 @@ function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-              <strong className="purple">sohum suthar </strong>
+                <strong className="purple">sohum suthar </strong>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -70,7 +71,7 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-             
+
                 projects
               </Nav.Link>
             </Nav.Item>
@@ -80,7 +81,7 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                 resume
+                resume
               </Nav.Link>
             </Nav.Item>
 
@@ -90,21 +91,38 @@ function NavBar() {
                 to="/EDD"
                 onClick={() => updateExpanded(false)}
               >
-                 EDD
+                EDD
               </Nav.Link>
             </Nav.Item>
-           
-            <li className="social-icons">
-              <a
-                href="https://github.com/sohumsuthar"
-                style={{ color: "white" }}
-                target="_blank" 
-           
-                rel="noopener noreferrer"
-              >
-                <AiFillGithub style={{ marginTop: "11.5px", marginLeft: "723px"}} size = {30} />
-              </a>
-            </li>
+            <Col
+            md={0}
+            style={{
+              paddingLeft: "670px",
+            }}
+          >
+        </Col>
+            <ul className="home-about-social-links">
+
+              <ul className="social-icons" >
+                <a
+                  href="https://github.com/sohumsuthar"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                  >
+                  <AiFillGithub size={20} />
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/in/sohum-suthar-67728022b/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </ul>
+            </ul>
           </Nav>
         </Navbar.Collapse>
       </Container>

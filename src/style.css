@@ -74,10 +74,10 @@ button:focus {
 .navbar {
   
   margin-left: -35px !important;
-
+  
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
-  padding: 0.3rem 2rem !important;
+  padding: 0.5rem 2rem !important;
   font-size: 1.2rem !important;
 }
 
@@ -172,7 +172,7 @@ button:focus {
 
 .navbar-nav .nav-item {
   position: relative;
-  margin-left: 20px;
+  margin-left: 15px;
 }
 
 .navbar-nav .nav-item a {
@@ -188,6 +188,7 @@ button:focus {
   display: block;
   height: 2.717171717px;
   width: 0;
+
   border-radius: 116px;
   background: transparent;
   bottom: 1px;
@@ -358,7 +359,7 @@ button:focus {
 .home-about-social-links {
   justify-content: center !important;
   padding-top: 15px !important;
-  display: inline-block !important;
+  display: grid !important;
   position: relative !important;
   padding-inline-start: 0 !important;
 }
@@ -370,11 +371,54 @@ button:focus {
   height: 40px !important;
   text-align: center !important;
   font-size: 1.2em !important;
+  line-height: 1.6em !important;
+  background: rgba(255, 255, 255, 0.972) !important;
+  border-radius: 70% !important;
+  transition: 0.5s !important;
+  margin-top: -5px !important;
+  margin-left: 10px !important;
+  
+
+}
+.home-social-icons2 {
+  position:absolute !important;
+  display: inline-block !important;
+  width: 40px !important;
+  height: 40px !important;
+  text-align: center !important;
+  font-size: 1.2em !important;
   line-height: 2em !important;
   background: rgba(255, 255, 255, 0.972) !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
+  margin-top: -10px !important;
+  margin-left: 00px !important;
 }
+.home-social-icons2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #68187a;
+  transition: 0.5s;
+  transform: scale(0.9);
+  z-index: -1;
+}
+
+.home-social-icons2:hover::before {
+  transform: scale(1.0);
+  box-shadow: 0 0 15px #801f95;
+}
+
+.home-social-icons2:hover {
+  color: #87209e;
+  box-shadow: 0 0 5px #87209e;
+  text-shadow: 0 0 2px #87209e;
+}
+
 
 .home-social-icons::before {
   content: "";

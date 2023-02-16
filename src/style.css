@@ -1,15 +1,4 @@
 html {
-  --section-background-color: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
-  );
-
-  --image-gradient: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
-  );
 
   --imp-text-color: #c770f0;
 }
@@ -83,6 +72,7 @@ button:focus {
 }
 
 .navbar {
+
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
@@ -188,17 +178,7 @@ button:focus {
 }
 
 .navbar-nav .nav-item a::after {
-  content: "";
-  position: relative;
-  display: block;
-  height: 5px;
-  width: 0;
-  border-radius: 16px;
-  background: #c95bf5;
-  bottom: 1px;
-  left: 0;
-  z-index: -1;
-  transition: all 0.3s ease-out 0s;
+
 }
 
 .navbar-nav .nav-item a:hover::after {
@@ -319,10 +299,11 @@ button:focus {
 
 
 .EDD-problem-body {
-  padding-top: 15px !important;
+  padding-top: 5px !important;
   padding-bottom: 0px;
+  padding-left: 313px;
   color: white !important;
-  text-align: center !important;
+  text-align: left !important;
   font-size: large;
 }
 
@@ -469,15 +450,22 @@ button:focus {
   padding-right: 25px !important;
   height: auto !important;
 }
+.EDD-card {
+  padding-top: 12.5px !important;
+  padding-bottom: 12.5px !important;
+  padding-left: 25px !important;
+  padding-right: 0px !important;
+  height: width !important;
+}
 .music-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
   padding-left: 25px !important;
   padding-right: 25px !important;
-  height: auto !important;
+  height:100% !important;
 }
 .music-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  box-shadow: 0 2px 2px 2px rgba(119, 53, 136, 0.459) !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -492,9 +480,8 @@ button:focus {
 
 
 .project-card-view {
-  box-shadow: 0 0px 10px 7px rgba(119, 53, 136, 0.459) !important;
   color: white !important;
-  background-color: transparent !important;
+  background-color: #5b1f77 !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
@@ -503,11 +490,10 @@ button:focus {
 }
 
 .EDD-card-view{
-  box-shadow: 0 0px 10px 7px rgba(119, 53, 136, 0.459) !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
-  border-radius: 5% !important;
+  border-radius: 40% !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
 }
@@ -515,7 +501,6 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.0) !important;
   overflow: hidden !important;
-  box-shadow: 0 0px 10px 10px rgba(129, 72, 144, 0.561) !important;
 }
 
 .blog-card {
@@ -558,8 +543,10 @@ button:focus {
 }
 
 .EDD-img-main {
-  padding: 0px !important;
-  border-radius: 5%;
+
+  padding-left: 0px !important;
+  padding-top: 15px;
+
 }
 
 
@@ -624,7 +611,9 @@ button:focus {
   color: white !important;
   font-size: 2.3em !important;
   font-weight: 500 !important;
-  padding-top: 10px !important;
+  padding-top: 0px !important;
+  text-align: left;
+  padding-left: 20px;
 }
 .project-heading-SCORT {
   color: white !important;

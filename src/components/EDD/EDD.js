@@ -16,10 +16,10 @@ function Projects() {
         <Particle />
         <Container>
           <h1 className="project-heading">
-            <strong className="purple">[lawn care, re-imagined]</strong>
+            lawn care, re-imagined
           </h1>
           <br/>
-          <img src={EDD} alt="about" width = "600" className="EDD-img-main" />
+          <img src={EDD} align= "left" alt="about" width = "600" className="EDD-img-main" />
           <Col md={15} className="EDD-problem-body">
             <p className="EDD-problem-body">
             Fifty-eight percent of homeowners with a lawn dislike mowing their lawn from a survey of over 1,000 people in 2008. Those who refuse to mow their own lawn spend an average of $45 every mow to keep their lawn trimmed. A majority of homeowners dislike lawn mowing due to the time it takes, the heat on warm days, and the noise from the lawnmower.
@@ -27,7 +27,7 @@ function Projects() {
           </Col>
         
           <Row style={{ justifyContent: "left", paddingBottom: "10px" }}>
-            <Col md={4} className="project-card">
+            <Col md={4} className="EDD-card">
               <ProjectCard
                 //imgPath={chatify}
                 isBlog={false}
@@ -37,7 +37,7 @@ function Projects() {
             </Col>
 
          
-            <Col md={4} className="project-card">
+            <Col md={4} className="EDD-card">
               <ProjectCard
                 //imgPath={chatify}
                 isBlog={false}
@@ -45,7 +45,7 @@ function Projects() {
                 demoLink="https://docs.google.com/document/d/1OSGW-L6Jt3WCqHfIpMyfTZ9DQwgijhbdeIpJm2H0ffY/edit?usp=sharing"
                 description="Identification and Analysis of Prior Solutions" />
             </Col>
-            <Col md={4} className="project-card">
+            <Col md={4} className="EDD-card">
               <ProjectCard
                 //imgPath={chatify}
                 isBlog={false}
@@ -53,7 +53,7 @@ function Projects() {
                 demoLink="https://docs.google.com/document/d/1hjJJn9n4IHS2aKs0ptYsnfy4kzeJZTfY7EBJyZlcSHw/edit?usp=sharing"
                 description="Justification of Design Specifications" />
             </Col>
-            <Col md={4} className="project-card">
+            <Col md={4} className="EDD-card">
               <ProjectCard
                 //imgPath={chatify}
                 isBlog={false}
@@ -61,7 +61,7 @@ function Projects() {
                 demoLink="https://docs.google.com/document/d/1hjJJn9n4IHS2aKs0ptYsnfy4kzeJZTfY7EBJyZlcSHw/edit?usp=sharing"
                 description="Design Concepts Generation, Analysis, Selection" />
             </Col>
-            <Col md={4} className="project-card">
+            <Col md={4} className="EDD-card">
               <ProjectCard
                 //imgPath={chatify}
                 isBlog={false}
@@ -69,7 +69,7 @@ function Projects() {
                 demoLink="https://docs.google.com/document/d/1GYm16wmiAligBJl5F19Wdar4SiL-xrEtctslzXiREwM/edit#heading=h.pu36syunw4t0"
                 description="Prototype Build Plan" />
             </Col>
-            <Col md={4} className="project-card">
+            <Col md={4} className="EDD-card">
               <ProjectCard
                 //imgPath={chatify}
                 isBlog={false}

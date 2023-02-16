@@ -8,6 +8,11 @@ import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
 import {
+  AiFillGithub,
+  AiOutlineTwitter,
+  AiFillInstagram,
+} from "react-icons/ai";
+import {
   AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
@@ -36,6 +41,7 @@ function NavBar() {
       expanded={expand}
       fixed="top"
       expand="md"
+      
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
@@ -99,7 +105,16 @@ function NavBar() {
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
-
+            <li className="social-icons">
+              <a
+                href="https://github.com/sohumsuthar"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiFillGithub style={{ marginTop: "11.5px" }} size = {30} />
+              </a>
+            </li>
           </Nav>
         </Navbar.Collapse>
       </Container>

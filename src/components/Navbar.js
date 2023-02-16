@@ -39,15 +39,14 @@ function NavBar() {
   return (
     <Navbar
       expanded={expand}
+      
       fixed="top"
       expand="md"
-      
+
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
-        </Navbar.Brand>
+
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -62,7 +61,7 @@ function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+              <strong className="purple">sohum suthar </strong>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -71,10 +70,8 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Projects
+             
+                projects
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -83,7 +80,7 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                 resume
               </Nav.Link>
             </Nav.Item>
 
@@ -93,26 +90,19 @@ function NavBar() {
                 to="/EDD"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> EDD Portfolio
+                 EDD
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/about"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
-              </Nav.Link>
-            </Nav.Item>
+           
             <li className="social-icons">
               <a
                 href="https://github.com/sohumsuthar"
                 style={{ color: "white" }}
                 target="_blank" 
+           
                 rel="noopener noreferrer"
               >
-                <AiFillGithub style={{ marginTop: "11.5px" }} size = {30} />
+                <AiFillGithub style={{ marginTop: "11.5px", marginLeft: "723px"}} size = {30} />
               </a>
             </li>
           </Nav>

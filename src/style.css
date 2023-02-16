@@ -1,6 +1,6 @@
 html {
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: rgba(197, 115, 230, 0.883);
 }
 
 .purple {
@@ -72,6 +72,7 @@ button:focus {
 }
 
 .navbar {
+  margin-left: -35px !important;
 
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
@@ -96,7 +97,9 @@ button:focus {
   left: 0 !important;
   opacity: 1 !important;
 }
-
+.justify-between{
+  justify-content: space-between;
+}
 .navbar-toggler:focus,
 .navbar-toggler:active {
   outline: 0 !important;
@@ -151,6 +154,7 @@ button:focus {
 
 .navbar-nav .nav-link {
   color: white !important;
+  text-align: left;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
 }
@@ -178,11 +182,24 @@ button:focus {
 }
 
 .navbar-nav .nav-item a::after {
-
+  content: "";
+  position: relative;
+  display: block;
+  height: 2.717171717px;
+  width: 0;
+  border-radius: 116px;
+  background: transparent;
+  bottom: 1px;
+  left: 0;
+  z-index: -1;
+  transition: all 0.1s ease-out 0s;
 }
 
 .navbar-nav .nav-item a:hover::after {
   width: 100%;
+  background-color: rgba(197, 115, 230, 0.883) !important;
+
+  
 }
 
 /* --------- */

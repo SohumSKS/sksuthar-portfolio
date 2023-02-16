@@ -13,74 +13,79 @@ import EDD from "../../Assets/EDD.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
-        <Particle />
-        <Container>
-          <h1 className="project-heading">
-            lawn care, re-imagined
-          </h1>
-          <br/>
           <Col md={15} className="EDD-problem-body">
-            <p className="EDD-problem-body">
+      <Particle />
+      <Container>
+        <h1 className="project-heading">
+          lawn care, re-imagined
+        </h1>
+        <br />
+        <Col md={15} className="EDD-problem-body">
+          <p className="EDD-problem-body">
             Fifty-eight percent of homeowners with a lawn dislike mowing their lawn from a survey of over 1,000 people in 2008. Those who refuse to mow their own lawn spend an average of $45 every mow to keep their lawn trimmed. A majority of homeowners dislike lawn mowing due to the time it takes, the heat on warm days, and the noise from the lawnmower.
-            </p>
+          </p>
+        </Col>
+        <div class="corner-wrapper">
+
+          <iframe src="https://a360.co/3jmJHQy" width="100%" height="500rem" border-rdaius="100px" allowfullscreen></iframe>
+        </div>
+
+        <Row style={{ justifyContent: "left", paddingBottom: "10px" }}>
+          <Col md={4} className="EDD-card">
+            <ProjectCard
+              //imgPath={chatify}
+              isBlog={false}
+              title="Element A  "
+              demoLink="https://docs.google.com/document/d/1mvufcl8rjvaroymI1N8UuThyPTnFhWTXzJ6YiNz9ouY/edit"
+              description="Problem Identification and Justification" />
           </Col>
 
-          <Row style={{ justifyContent: "left", paddingBottom: "10px" }}>
-            <Col md={4} className="EDD-card">
-              <ProjectCard
-                //imgPath={chatify}
-                isBlog={false}
-                title="Element A  "
-                demoLink="https://docs.google.com/document/d/1mvufcl8rjvaroymI1N8UuThyPTnFhWTXzJ6YiNz9ouY/edit"
-                description="Problem Identification and Justification" />
-            </Col>
 
-         
-            <Col md={4} className="EDD-card">
-              <ProjectCard
-                //imgPath={chatify}
-                isBlog={false}
-                title="Element B"
-                demoLink="https://docs.google.com/document/d/1OSGW-L6Jt3WCqHfIpMyfTZ9DQwgijhbdeIpJm2H0ffY/edit?usp=sharing"
-                description="Identification and Analysis of Prior Solutions" />
-            </Col>
-            <Col md={4} className="EDD-card">
-              <ProjectCard
-                //imgPath={chatify}
-                isBlog={false}
-                title="Element C"
-                demoLink="https://docs.google.com/document/d/1hjJJn9n4IHS2aKs0ptYsnfy4kzeJZTfY7EBJyZlcSHw/edit?usp=sharing"
-                description="Justification of Design Specifications" />
-            </Col>
-            <Col md={4} className="EDD-card">
-              <ProjectCard
-                //imgPath={chatify}
-                isBlog={false}
-                title="Element D"
-                demoLink="https://docs.google.com/document/d/1hjJJn9n4IHS2aKs0ptYsnfy4kzeJZTfY7EBJyZlcSHw/edit?usp=sharing"
-                description="Design Concepts Generation, Analysis, Selection" />
-            </Col>
-            <Col md={4} className="EDD-card">
-              <ProjectCard
-                //imgPath={chatify}
-                isBlog={false}
-                title="Element G"
-                demoLink="https://docs.google.com/document/d/1GYm16wmiAligBJl5F19Wdar4SiL-xrEtctslzXiREwM/edit#heading=h.pu36syunw4t0"
-                description="Prototype Build Plan" />
-            </Col>
-            <Col md={4} className="EDD-card">
-              <ProjectCard
-                //imgPath={chatify}
-                isBlog={false}
-                title="Element H"
-                demoLink="https://docs.google.com/document/d/1w2pMy-RvMidXPuNn6O4HXCIl5CZnFJVeTU4_yrqg5Yk/edit#heading=h.pzqzsbphsihq"
-                description="Prototype Testing & Data Collection Plan" />
-            </Col>
-          </Row>
-        </Container>
-
+          <Col md={4} className="EDD-card">
+            <ProjectCard
+              //imgPath={chatify}
+              isBlog={false}
+              title="Element B"
+              demoLink="https://docs.google.com/document/d/1OSGW-L6Jt3WCqHfIpMyfTZ9DQwgijhbdeIpJm2H0ffY/edit?usp=sharing"
+              description="Identification and Analysis of Prior Solutions" />
+          </Col>
+          <Col md={4} className="EDD-card">
+            <ProjectCard
+              //imgPath={chatify}
+              isBlog={false}
+              title="Element C"
+              demoLink="https://docs.google.com/document/d/1hjJJn9n4IHS2aKs0ptYsnfy4kzeJZTfY7EBJyZlcSHw/edit?usp=sharing"
+              description="Justification of Design Specifications" />
+          </Col>
+          <Col md={4} className="EDD-card">
+            <ProjectCard
+              //imgPath={chatify}
+              isBlog={false}
+              title="Element D"
+              demoLink="https://docs.google.com/document/d/1hjJJn9n4IHS2aKs0ptYsnfy4kzeJZTfY7EBJyZlcSHw/edit?usp=sharing"
+              description="Design Concepts Generation, Analysis, Selection" />
+          </Col>
+          <Col md={4} className="EDD-card">
+            <ProjectCard
+              //imgPath={chatify}
+              isBlog={false}
+              title="Element G"
+              demoLink="https://docs.google.com/document/d/1GYm16wmiAligBJl5F19Wdar4SiL-xrEtctslzXiREwM/edit#heading=h.pu36syunw4t0"
+              description="Prototype Build Plan" />
+          </Col>
+          <Col md={4} className="EDD-card">
+            <ProjectCard
+              //imgPath={chatify}
+              isBlog={false}
+              title="Element H"
+              demoLink="https://docs.google.com/document/d/1w2pMy-RvMidXPuNn6O4HXCIl5CZnFJVeTU4_yrqg5Yk/edit#heading=h.pzqzsbphsihq"
+              description="Prototype Testing & Data Collection Plan" />
+          </Col>
+        </Row>
       </Container>
-  
+
+    </Container>
+
   );
 }
 
@@ -145,9 +150,9 @@ export default Projects;
 
 
 
-        /*
-        put under main text
-        <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
-        </p>
-        */
+/*
+put under main text
+<p style={{ color: "white" }}>
+  Here are a few projects I've worked on recently.
+</p>
+*/

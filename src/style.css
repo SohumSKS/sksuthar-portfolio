@@ -463,7 +463,17 @@ button:focus {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
 }
-
+.corner-wrapper {
+  display: block;
+  overflow: hidden;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  transform: translateZ(0px);
+  border: 3px transparent #eee;
+  padding-left: 20px;
+  
+}
 .project-card {
   padding-top: 25px !important;
   padding-bottom: 25px !important;
@@ -504,7 +514,7 @@ button:focus {
 .project-card-view {
   color: white !important;
   background-color: #5b1f77 !important;
-  opacity: 0.9 !important;
+  opacity: 1 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
   border-radius: 2.7128572% !important;
@@ -589,7 +599,7 @@ button:focus {
   display: flex ;
 
   width: 25px;
-  height: 25px;
+  height: 30px;
   margin: 0px;
   padding: 0px !important;
 

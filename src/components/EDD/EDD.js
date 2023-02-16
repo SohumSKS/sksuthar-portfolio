@@ -13,7 +13,6 @@ import EDD from "../../Assets/EDD.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
-          <Col md={15} className="EDD-problem-body">
       <Particle />
       <Container>
         <h1 className="project-heading">

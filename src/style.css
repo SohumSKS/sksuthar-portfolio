@@ -273,6 +273,7 @@ button:focus {
 .heading {
   font-size: 2.4em !important;
   padding-left: 50px !important;
+  padding-top: 0% !important;
 }
 
 .heading-name {
@@ -458,7 +459,7 @@ button:focus {
 /* --------- */
 .project-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 120px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
 }
@@ -609,6 +610,26 @@ button:focus {
   
 
 }
+.btn-primare {
+  color: #fff !important;
+
+  opacity: 0.6;
+  background-color: #62368600 !important;
+  border-color: rgba(197, 115, 230, 0.883) !important;
+
+  display: flex ;
+  width: 150px;
+  height: 35px;
+  margin-left: 2.5%;
+  
+
+}
+.btn-primare:hover {
+  opacity: 1;
+  color: #fff !important;
+  
+  background-color: #62368600 !important;
+}
 .btn-primaree:hover {
   opacity: 1;
   color: #fff !important;
@@ -725,7 +746,7 @@ button:focus {
 }
 
 .resume {
-  padding-top: 50px;
+  padding-top: 25px;
   padding-bottom: 50px;
   justify-content: center;
 }

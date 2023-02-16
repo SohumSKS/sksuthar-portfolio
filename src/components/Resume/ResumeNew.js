@@ -21,25 +21,31 @@ function ResumeNew() {
   return (
     <div>
       <Container fluid className="resume-section">
-    
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+        
+      <Container>
+          <h1 className="project-heading">
+      
+            
+            resume
+          </h1>
+        <Row >
           <Button
-            variant="primary"
+            variant="primare"
             href={resumeLink}
             target="_blank"
-            style={{ maxWidth: "250px" }}
+            style={{ maxWidth: "150px" }}
+
           >
             <AiOutlineDownload />
-            &nbsp;Download Resume
+            &nbsp; download
           </Button>
         </Row>
-
         <Row className="resume">
           <Document file={resumeLink} className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
         </Row>
-
+        </Container>
       </Container>
     </div>
   );

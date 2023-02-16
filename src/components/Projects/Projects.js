@@ -13,10 +13,9 @@ import mars from "../../Assets/Projects/mars.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
-
       <Container>
         <h1 className="project-heading">
-        Projects
+        projects
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">

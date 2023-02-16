@@ -26,12 +26,12 @@ function Projects() {
             </p>
           </Col>
         
-          <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Row style={{ justifyContent: "left", paddingBottom: "10px" }}>
             <Col md={4} className="project-card">
               <ProjectCard
                 //imgPath={chatify}
                 isBlog={false}
-                title="Element A"
+                title="Element A  "
                 demoLink="https://docs.google.com/document/d/1mvufcl8rjvaroymI1N8UuThyPTnFhWTXzJ6YiNz9ouY/edit"
                 description="Problem Identification and Justification" />
             </Col>

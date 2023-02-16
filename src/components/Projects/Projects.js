@@ -13,7 +13,7 @@ import mars from "../../Assets/Projects/mars.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
-      <Particle />
+
       <Container>
         <h1 className="project-heading">
         <strong className="purple"> Projects </strong>

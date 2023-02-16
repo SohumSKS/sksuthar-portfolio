@@ -389,7 +389,7 @@ button:focus {
 }
 
 .home-social-icons:hover::before {
-  transform: scale(1.1);
+  transform: scale(1.0);
   box-shadow: 0 0 15px #801f95;
 }
 
@@ -485,7 +485,7 @@ button:focus {
   height: 100% !important;
 }
 .music-card-view:hover {
-  transform: scale(1.02) !important;
+  transform: scale(1.0) !important;
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
 }
@@ -513,7 +513,7 @@ button:focus {
 }
 
 .project-card-view:hover {
-  transform: scale(1.05) !important;
+  transform: scale(1.0) !important;
   overflow: hidden !important;
   box-shadow: 0 0px 10px 10px rgba(129, 72, 144, 0.561) !important;
 }
@@ -544,7 +544,7 @@ button:focus {
 }
 
 .blog-card-view:hover {
-  transform: scale(1.02) !important;
+  transform: scale(1) !important;
   overflow: hidden !important;
   box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
 }
@@ -571,14 +571,50 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #623686 !important;
-  border-color: #623686 !important;
-}
 
-.btn-primary:hover {
+  opacity: .5;
+  background-color: #62368600 !important;
+  border-color: transparent !important;
+
+  align-items: top !important;
+  display: flex ;
+
+  width: 25px;
+  height: 25px;
+  margin: 0px;
+  padding: 0px !important;
+
+}
+.btn-primaree {
   color: #fff !important;
-  background-color: #6d20c5d7 !important;
-  border-color: #6d20c5d7 !important;
+  justify-content: center;
+  opacity: 0.6;
+  background-color: #62368600 !important;
+  border-color: rgba(197, 115, 230, 0.883) !important;
+
+  text-align: bottom !important;
+  display: flex ;
+
+  width: 150px;
+  height: 35px;
+  margin: 0px;
+  
+
+}
+.btn-primaree:hover {
+  opacity: 1;
+  color: #fff !important;
+  
+  background-color: #62368600 !important;
+}
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.btn-primary:hover {
+  opacity: 1;
+  color: #fff !important;
+  background-color: #62368600 !important;
 }
 .btn:focus {
   outline: none !important;
@@ -638,7 +674,7 @@ button:focus {
 }
 
 .tech-icons:hover {
-  transform: scale(1.05) !important;
+  transform: scale(1.0) !important;
   overflow: hidden !important;
   border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
 }
@@ -781,7 +817,7 @@ button:focus {
 }
 @keyframes likeAnimation {
   0% {
-    transform: scale(1.5);
+    transform: scale(1.);
   }
   100% {
     transform: scale(1);

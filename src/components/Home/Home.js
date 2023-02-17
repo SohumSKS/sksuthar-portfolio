@@ -28,8 +28,9 @@ function Home() {
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
           <Row>
-            <Col md = {1}></Col>
-            <Col md={4} className="home-about-description">
+
+
+            <Col md={6} className="home-about-description">
               <p className="home-about-body">
                 I am a passionate Engineer and Scientist
                 <br />
@@ -65,7 +66,7 @@ function Home() {
             </Col>
 
 
-            <Col md={4} className = "home-about-description2" >
+            <Col md={5} className = "home-about-description2" >
               <img
                 src={myImg}
                 alt="home pic"

@@ -25,7 +25,7 @@ const ColoredLine = ({ color }) => (
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
-      <Container>
+      <Container className = "mokey">
             <ColoredLine color="white"  />
       </Container>
     </Container>

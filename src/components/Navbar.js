@@ -59,7 +59,7 @@ function NavBar() {
           <span></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto" defaultActiveKey="#home">
+          <Nav className="navbar-nav me-auto order-0 " defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                 <strong className="purple">sohum suthar </strong>
@@ -94,13 +94,11 @@ function NavBar() {
                 EDD
               </Nav.Link>
             </Nav.Item>
-            <Col
-            md={0}
-            style={{
-              paddingLeft: "670px",
-            }}
-          >
-        </Col>
+
+        </Nav>
+        </Navbar.Collapse>
+        <Nav className="navbar-nav ms-auto order-0 " defaultActiveKey="#home">
+
             <ul className="home-about-social-links">
 
               <ul className="social-icons" >
@@ -124,7 +122,7 @@ function NavBar() {
               </ul>
             </ul>
           </Nav>
-        </Navbar.Collapse>
+
       </Container>
     </Navbar>
   );

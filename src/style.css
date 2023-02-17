@@ -366,14 +366,14 @@ button:focus {
 
 .home-social-icons {
   position: relative !important;
-  display: inline-block !important;
+  display:inline-table !important;
   width: 40px !important;
   height: 40px !important;
   text-align: center !important;
   font-size: 1.2em !important;
   line-height: 1.6em !important;
   background: rgba(255, 255, 255, 0.972) !important;
-  border-radius: 70% !important;
+  border-radius: 50% !important;
   transition: 0.5s !important;
   margin-top: -5px !important;
   margin-left: 10px !important;
@@ -511,11 +511,11 @@ button:focus {
   display: block;
   overflow: hidden;
   width: auto;
-  height: auto;
-  border-radius: 10px;
+
+  border-radius: 50px !important;
+  justify-content: center;
   transform: translateZ(0px);
-  border: 3px transparent #eee;
-  padding-left: 20px;
+
   
 }
 .project-card {
@@ -803,10 +803,12 @@ button:focus {
   padding-top: 25px;
   padding-bottom: 50px;
   justify-content: center;
+  border-radius: 10% !important;
 }
 
 .resume-left {
   padding-right: 80px !important;
+  
 }
 
 .resume-right {
@@ -836,6 +838,7 @@ button:focus {
   margin-top: -2px;
   border-left: 2px solid #8a49a8;
   position: relative;
+  border-radius: 10% !important;
 }
 
 .resume .resume-item .resume-title {
@@ -846,6 +849,7 @@ button:focus {
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+  border-radius: 10% !important;
 }
 
 .resume .resume-item ul {
@@ -867,11 +871,12 @@ button:focus {
   position: absolute;
   width: 16px;
   height: 16px;
-  border-radius: 50px;
+  border-radius: 10% !important;
   left: -9px;
   top: 0;
   background: #fff;
   border: 2px solid #8a49a8;
+  
 }
 
 .like-item {

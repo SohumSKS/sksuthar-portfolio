@@ -4,46 +4,85 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/home-main.png";
 import Home2 from "./Home2";
 import Type from "./Type";
+const ColoredLine = ({ color }) => (
+  <hr
+    style={{
 
+      color: color,
+
+      backgroundColor: color,
+      height: 1.5,
+      opacity: 1,
+      width: 600
+
+    }}
+  />
+);
 function Home() {
   return (
     <section>
-        <br />
-        <br />
-        <br />
+      <br />
+      <br />
+      <br />
 
       <Container fluid className="home-section" id="home">
-        
         <Container className="home-content">
           <Row>
-            <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hello There!{" "}
-              </h1>
+            <Col md = {1}></Col>
+            <Col md={4} className="home-about-description">
+              <p className="home-about-body">
+                I am a passionate Engineer and Scientist
+                <br />
+                <br /> Fluencies:
+                <i>
+                  <b className="purple"> C++, Javascript, Python, Java, C, and more. </b>
+                </i>
+                <br />
+                <br />
+                My field of Interest's are:&nbsp;
+                <i>
+                  <b className="purple">Electrical Engineering </b> and the
+                  integration of {" "}
+                  <b className="purple">
+                    AI and Machine Learning.
+                  </b>
+                </i>
+                <br />
+                <br />
+                I am a Board director on <b className="purple">mySTEMBuddy</b> and a
+                <i>
+                  <b className="purple">
+                    {" "}
+                    Senior
+                  </b>
+                </i>
+                &nbsp; at
+                <i>
+                  <b className="purple"> Neuqua Valley High School</b>
+                </i>
+              </p>
 
-              <h1 className="heading-name">
-                I am 
-                <strong className="main-name"> Sohum Suthar</strong>
-              </h1>
-
-              <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
-              </div>
             </Col>
-            <Col md={5} style={{ paddingBottom: 20 }}>
+
+
+            <Col md={4} className = "home-about-description2" >
               <img
                 src={myImg}
                 alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "1000px" }}
+                className="blog-img"
+
+                style={{ maxHeight: "400px", borderRadius: 40, maxWidth: "400px", textalign: "left" }}
               />
             </Col>
-      
+
           </Row>
+
         </Container>
       </Container>
+
       <Home2 />
     </section>
+
   );
 }
 

@@ -24,9 +24,9 @@ function Projects() {
             Fifty-eight percent of homeowners with a lawn dislike mowing their lawn from a survey of over 1,000 people in 2008. Those who refuse to mow their own lawn spend an average of $45 every mow to keep their lawn trimmed. A majority of homeowners dislike lawn mowing due to the time it takes, the heat on warm days, and the noise from the lawnmower.
           </p>
         </Col>
-        <div class="corner-wrapper">
+        <div class="corner-wrapper justify-content-center" >
 
-          <iframe src="https://a360.co/3jmJHQy" width="100%" height="500rem" border-rdaius="100px" allowfullscreen></iframe>
+          <iframe src="https://a360.co/3jmJHQy" width="100%" height="550rem" border-rdaius="100px" allowfullscreen></iframe>
         </div>
 
         <Row style={{ justifyContent: "left", paddingBottom: "10px" }}>

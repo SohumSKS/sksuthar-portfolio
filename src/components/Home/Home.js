@@ -30,7 +30,7 @@ function Home() {
           <Row>
 
 
-            <Col md={6} className="home-about-description">
+            <Col sm={6} className="home-about-description">
               <p className="home-about-body">
                 I am a passionate Engineer and Scientist
                 <br />

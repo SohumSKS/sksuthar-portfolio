@@ -280,7 +280,7 @@ button:focus {
 
 .heading-name {
   font-size: 2.5em !important;
-  padding-left: 45px !important;
+  padding-left: 5px !important;
 }
 
 .main-name {
@@ -362,7 +362,7 @@ button:focus {
 
 .home-about-body {
   padding-top: 0px !important;
-  font-size: 1.2em !important;
+  font-size: 100% !important;
   text-align: left !important;
   margin-right: 00px;
   padding-left: 0%;

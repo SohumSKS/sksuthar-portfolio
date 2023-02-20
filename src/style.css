@@ -363,6 +363,8 @@ button:focus {
   padding-bottom: 20px !important;
   padding-left: 3% !important;
   text-align: center;
+  font-size: 2vmin;
+  padding-right: 1% !important;
 }
 .home-about-description2 {
   color: white !important;

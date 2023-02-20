@@ -64,6 +64,12 @@ button:focus {
 /* --------- */
 /* Navbar Section  */
 /* --------- */
+
+
+.nav-linkprops{
+  font-size: 2vb !important;
+}
+
 .sticky {
   background-color: #1b1a2ea9 !important;
   transition: all 0.3s ease-out 0s !important;
@@ -73,11 +79,11 @@ button:focus {
 
 .navbar {
   
-  margin-left: -35px !important;
+  margin-left:0px !important;
   
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
-  padding: 0.5rem 2rem !important;
+  padding: 0.5rem 1rem !important;
   font-size: 1.2rem !important;
 }
 
@@ -134,7 +140,7 @@ button:focus {
   opacity: 0.9 !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767) {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
@@ -156,25 +162,30 @@ button:focus {
 .navbar-nav .nav-link {
   color: white !important;
   text-align: left;
-  padding-right: 1rem !important;
-  padding-left: 1rem !important;
+  padding-right: 0% !important;
+  padding-left: 0rem !important;
+  font-size: 1.1rem;
 }
 
 .nav-link {
-  padding: 0.8rem 1rem !important;
+  padding: 0rem 0rem !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 10) {
   .nav-link {
-    padding: 0.7rem 1rem !important;
+    padding: 0 0 !important;
   }
 }
 
 .navbar-nav .nav-item {
   position: relative;
-  margin-left: 15px;
+  margin-left: 4vmin;
 }
-
+.nopadding{
+  padding-bottom: 0 !important;
+  padding-top: 12px;
+  height: 40px;
+}
 .navbar-nav .nav-item a {
   font-weight: 400;
   transition: all 0.3s ease-out 0s;
@@ -297,7 +308,7 @@ button:focus {
   color: #b562d6 !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767) {
   .Typewriter__wrapper {
     font-size: 1.4em !important;
     font-weight: 500 !important;
@@ -313,7 +324,7 @@ button:focus {
   padding-top: 9em !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767) {
   .myAvtar {
     padding-top: 2em !important;
     padding-bottom: 2em !important;
@@ -356,6 +367,7 @@ button:focus {
 .home-about-description2 {
   color: white !important;
   padding-top: 10px !important;
+
   padding-bottom: 20px !important;
   text-align: left;
 }
@@ -376,7 +388,7 @@ button:focus {
 
 .home-about-social-links {
   justify-content: center !important;
-  padding-top: 15px !important;
+  padding-top: 5px !important;
   display: grid !important;
   position: relative !important;
   padding-inline-start: 0 !important;
@@ -385,15 +397,15 @@ button:focus {
 .home-social-icons {
   position: relative !important;
   display:inline-table !important;
-  width: 40px !important;
-  height: 40px !important;
+  width: 30px !important;
+  height: 30px !important;
   text-align: center !important;
-  font-size: 1.2em !important;
-  line-height: 1.6em !important;
+  font-size: 1.35em !important;
+  line-height: 1em !important;
   background: rgba(255, 255, 255, 0.972) !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
-  margin-top: -5px !important;
+  margin-top: 0px !important;
   margin-left: 10px !important;
   
 
@@ -409,7 +421,6 @@ button:focus {
   background: rgba(255, 255, 255, 0.972) !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
-  margin-top: -10px !important;
   margin-left: 00px !important;
 }
 .home-social-icons2::before {
@@ -454,19 +465,19 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.0);
-  box-shadow: 0 0 15px #801f95;
+  box-shadow: 0 0 25px #801f95;
 }
 
 .home-social-icons:hover {
   color: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  box-shadow: 0 0 35px #87209e;
+  text-shadow: 0 0 32px #87209e;
 }
 
 .social-icons {
   display: inline-block !important;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .icon-colour {
@@ -491,7 +502,7 @@ button:focus {
   text-align: center !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767) {
   .footer-copywright {
     text-align: center !important;
   }
@@ -782,7 +793,7 @@ button:focus {
   transition: all 0.4s ease 0s !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767) {
   .tech-icons {
     margin: 10px !important;
   }
@@ -810,7 +821,7 @@ button:focus {
   padding-left: 1px !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767) {
   .about-img {
     padding-top: 0 !important;
     border-radius: 50%;
@@ -845,7 +856,7 @@ button:focus {
   padding-left: 80px !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767) {
   .resume-left {
     padding-right: 15px !important;
     padding-left: 15px !important;

@@ -24,7 +24,6 @@ import { CgFileDocument } from "react-icons/cg";
 import { CgMusic } from "react-icons/cg";
 
 function NavBar() {
-  const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
 
   function scrollHandler() {
@@ -39,49 +38,34 @@ function NavBar() {
 
   return (
     <Navbar
-      expanded={expand}
 
       fixed="top"
-      expand="md"
 
       className={navColour ? "sticky" : "navbar"}
     >
-      <Container>
+      <Container className="nopadding">
 
-        <Navbar.Toggle
-          aria-controls="responsive-navbar-nav"
-          onClick={() => {
-            updateExpanded(expand ? false : "expanded");
-          }}
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </Navbar.Toggle>
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="navbar-nav me-auto order-0 " defaultActiveKey="#home">
+      
+          <Nav className="navbar-nav  " defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <strong className="purple">sohum suthar </strong>
+              <Nav.Link as={Link} to="/">
+              <h1 className="nav-linkprops"><strong className="purple">sohum suthar </strong></h1>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/project"
-                onClick={() => updateExpanded(false)}
-              >
+                to="/project">
 
-                projects
+<h1 className="nav-linkprops">projects</h1>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/resume"
-                onClick={() => updateExpanded(false)}
               >
-                resume
+                <h1 className="nav-linkprops">resume</h1>
               </Nav.Link>
             </Nav.Item>
 
@@ -89,15 +73,13 @@ function NavBar() {
               <Nav.Link
                 as={Link}
                 to="/EDD"
-                onClick={() => updateExpanded(false)}
               >
-                EDD
+                <h1 className="nav-linkprops">EDD</h1>
               </Nav.Link>
             </Nav.Item>
 
         </Nav>
-        </Navbar.Collapse>
-        <Nav className="navbar-nav ms-auto order-0 " defaultActiveKey="#home">
+        <Nav className="navbar-nav  " defaultActiveKey="#home">
 
             <ul className="home-about-social-links">
 
@@ -117,7 +99,7 @@ function NavBar() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <FaLinkedinIn />
+                  <FaLinkedinIn size={20} />
                 </a>
               </ul>
             </ul>

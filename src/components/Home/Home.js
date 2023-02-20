@@ -30,7 +30,7 @@ function Home() {
           <Row>
 
 
-            <Col sm={6} className="home-about-description">
+            <Col xs={6} className="home-about-description">
               <p className="home-about-body">
                 I am a passionate Engineer and Scientist
                 <br />
@@ -66,13 +66,13 @@ function Home() {
             </Col>
 
 
-            <Col md={5} className = "home-about-description2" >
+            <Col xs={5} className = "home-about-description2" >
               <img
                 src={myImg}
                 alt="home pic"
                 className="blog-img"
 
-                style={{ maxHeight: "400px", borderRadius: 40, maxWidth: "400px", textalign: "left" }}
+                style={{ maxHeight: "40vh", borderRadius: 40, maxWidth: "40vw", textalign: "left" }}
               />
             </Col>
 

@@ -67,7 +67,7 @@ button:focus {
 
 
 .nav-linkprops{
-  font-size: 2vb !important;
+  font-size: 2.5dvmin !important;
 }
 
 .sticky {
@@ -182,8 +182,8 @@ button:focus {
   margin-left: 4vmin;
 }
 .nopadding{
-  padding-bottom: 0 !important;
-  padding-top: 12px;
+  padding: 0 !important;
+  padding-top: 1% !important;
   height: 40px;
 }
 .navbar-nav .nav-item a {
@@ -377,7 +377,7 @@ button:focus {
   font-size: 100% !important;
   text-align: left !important;
   margin-right: 00px;
-  padding-left: 0%;
+  padding-left: 7% !important;
 }
 
 .home-about-social {
@@ -397,16 +397,16 @@ button:focus {
 .home-social-icons {
   position: relative !important;
   display:inline-table !important;
-  width: 30px !important;
-  height: 30px !important;
+  width: 24px !important;
+  height: 24px !important;
   text-align: center !important;
-  font-size: 1.35em !important;
-  line-height: 1em !important;
+  font-size: 1.15em !important;
+  line-height: 0.95em !important;
   background: rgba(255, 255, 255, 0.972) !important;
   border-radius: 50% !important;
-  transition: 0.5s !important;
+  transition: 0.2s !important;
   margin-top: 0px !important;
-  margin-left: 10px !important;
+  margin-left: 7px !important;
   
 
 }
@@ -612,6 +612,7 @@ button:focus {
   padding-left: 25px !important;
   padding-right: 25px !important;
   height: auto !important;
+  width: auto !important;
 }
 
 .blog-card-view {

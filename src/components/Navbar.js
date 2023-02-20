@@ -99,7 +99,7 @@ function NavBar() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <FaLinkedinIn size={20} />
+                  <FaLinkedinIn size={18} />
                 </a>
               </ul>
             </ul>

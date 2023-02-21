@@ -30,10 +30,18 @@ function Home() {
           <Row>
 
 
-            <Col xs={6} className="home-about-description">
+            <Col xs className="home-about-description">
               <p className="home-about-body">
+              <img
+                src={myImg}
+                alt="home pic"
+                className="blog-img"
+
+                style={{ maxHeight: "35vh", borderRadius: 40, maxWidth: "35vw", textalign: "right" }}
+              />
                 I am a passionate Engineer and Scientist
                 <br />
+                
                 <br /> Fluencies:
                 <i>
                   <b className="purple"> C++, Javascript, Python, Java, C, and more. </b>
@@ -63,18 +71,10 @@ function Home() {
                 </i>
               </p>
 
+
             </Col>
 
 
-            <Col xs={5} className = "home-about-description2" >
-              <img
-                src={myImg}
-                alt="home pic"
-                className="blog-img"
-
-                style={{ maxHeight: "40vh", borderRadius: 40, maxWidth: "40vw", textalign: "left" }}
-              />
-            </Col>
 
           </Row>
 

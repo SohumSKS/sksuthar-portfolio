@@ -41,6 +41,7 @@ button:focus {
 /* --------- */
 
 ::-webkit-scrollbar {
+  
   width: 7px;
 }
 
@@ -273,6 +274,7 @@ button:focus {
   padding-bottom: 0px !important;
   padding-top: 0px !important;
   padding-left: 0!important;
+  width: fit-content;
 }
 
 .home-content {
@@ -370,7 +372,7 @@ button:focus {
   color: white !important;
   padding-top: 10px !important;
 
-  padding-bottom: 20px !important;
+  padding-bottom: 10px !important;
   text-align: left;
 float: right !important;
 }
@@ -380,7 +382,8 @@ float: right !important;
   font-size: 100% !important;
   text-align: left !important;
   margin-right: 00px;
-  padding-left: 7% !important;
+  padding-left: 3% !important;
+  width: 55vh !important;
 }
 
 .home-about-social {
@@ -660,10 +663,12 @@ float: right !important;
 
 
 .blog-img {
-  padding: 0px !important;
+  margin-left: 1%;
+  padding: 10px !important;
   width: auto;
-  justify-content: left;
+  justify-content: right !important;
   opacity: 0.8 !important;
+  float: right !important;
 
 }
 

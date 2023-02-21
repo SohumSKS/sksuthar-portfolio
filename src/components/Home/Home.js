@@ -37,7 +37,7 @@ function Home() {
                 alt="home pic"
                 className="blog-img"
 
-                style={{ float: "right", maxHeight: "35vh", borderRadius: 25, maxWidth: "35vw", textalign: "right" }}
+                style={{ float: "left", maxHeight: "35vh", borderRadius: 25, maxWidth: "35vw", textalign: "right" }}
               />
                 I am a passionate Engineer and Scientist
                 <br />

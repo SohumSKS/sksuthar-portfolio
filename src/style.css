@@ -68,7 +68,11 @@ button:focus {
 
 
 .nav-linkprops{
-  font-size: 2.5dvmin !important;
+  font-size: 2.6dvmin !important;
+}
+.nav-linkprops2{
+  padding-left: 0% !important;
+margin-left: 0% !important;
 }
 
 .sticky {
@@ -170,6 +174,7 @@ button:focus {
 
 .nav-link {
   padding: 0rem 0rem !important;
+  padding-top: 1%;
 }
 
 @media (max-width: 10) {
@@ -180,11 +185,15 @@ button:focus {
 
 .navbar-nav .nav-item {
   position: relative;
+
   margin-left: 4vmin;
+  height: fit-content !important;
+  padding: 0% ;
+  padding-top: 1.5vh;
 }
 .nopadding{
-  padding: 0 !important;
-  padding-top: 1% !important;
+  padding-bottom: 1.6% !important;
+  padding-top: 1.2% !important;
   height: 40px;
 }
 .navbar-nav .nav-item a {
@@ -379,9 +388,9 @@ float: right !important;
 
 .home-about-body {
   padding-top: 0px !important;
-  font-size: 100% !important;
+  font-size: 90% !important;
   text-align: left !important;
-  margin-right: 00px;
+  margin-right: 0px !important;
   padding-left: 3% !important;
   width: 55vh !important;
 }
@@ -394,10 +403,11 @@ float: right !important;
 
 .home-about-social-links {
   justify-content: center !important;
-  padding-top: 5px !important;
-  display: grid !important;
+  padding-top: 0px !important;
+  display:flex !important;
   position: relative !important;
   padding-inline-start: 0 !important;
+  margin: 0 !important;
 }
 
 .home-social-icons {
@@ -413,7 +423,7 @@ float: right !important;
   transition: 0.2s !important;
   margin-top: 0px !important;
   margin-left: 7px !important;
-  
+  margin-bottom: 0% !important;
 
 }
 .home-social-icons2 {
@@ -428,6 +438,7 @@ float: right !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
   margin-left: 00px !important;
+  margin-bottom: 0% !important;
 }
 .home-social-icons2::before {
   content: "";
@@ -663,8 +674,11 @@ float: right !important;
 
 
 .blog-img {
-  margin-left: 1%;
-  padding: 10px !important;
+  margin-left: 2%;
+  padding-left: 1% !important;
+  padding-bottom: 0% !important;
+  padding-right: 1% !important;
+  padding-top: 0 !important;
   width: auto;
   justify-content: right !important;
   opacity: 0.8 !important;

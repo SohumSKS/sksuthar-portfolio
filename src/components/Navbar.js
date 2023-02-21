@@ -47,7 +47,7 @@ function NavBar() {
 
       
           <Nav className="navbar-nav  " defaultActiveKey="#home">
-            <Nav.Item>
+            <Nav.Item className="nav-linkprops2">
               <Nav.Link as={Link} to="/">
               <h1 className="nav-linkprops"><strong className="purple">sohum suthar </strong></h1>
               </Nav.Link>

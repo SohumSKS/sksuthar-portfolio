@@ -53,10 +53,9 @@ function Home() {
                 <br />
                 Check out some of my&nbsp;
                 <i>
-                  <b className="purple">projects </b> and the
-                  integration of {" "}
+                  <b className="purple">projects </b> and my {}
                   <b className="purple">
-                    AI and Machine Learning.
+                    github.
                   </b>
                 </i>
                 <br />

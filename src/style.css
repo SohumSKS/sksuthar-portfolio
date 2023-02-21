@@ -68,7 +68,7 @@ button:focus {
 
 
 .nav-linkprops{
-  font-size: 2.6dvmin !important;
+  font-size: 1.8vh !important;
 }
 .nav-linkprops2{
   padding-left: 0% !important;
@@ -182,11 +182,13 @@ margin-left: 0% !important;
     padding: 0 0 !important;
   }
 }
-
+.monkeyquiet{
+  background-color: transparent !important;
+}
 .navbar-nav .nav-item {
   position: relative;
 
-  margin-left: 4vmin;
+  margin-left: 3vw;
   height: fit-content !important;
   padding: 0% ;
   padding-top: 1.5vh;
@@ -284,12 +286,12 @@ margin-left: 0% !important;
   padding-bottom: 0px !important;
   padding-top: 0px !important;
   padding-left: 0!important;
-  width: fit-content;
+  width: fit-content ;
 }
 
 .home-content {
   height: fit-content !important;
-  padding-top: 10vh !important;
+  padding-top: 8vh !important;
   color: whitesmoke;
   text-align: center !important;
   width: fit-content !important;
@@ -382,12 +384,19 @@ margin-left: 0% !important;
   padding-right: 1% !important;
 }
 .home-about-description2 {
+  display: grid !important;
+  grid-auto-flow: row !important;
+  gap: 4px !important;
+  align-items: center;
+  justify-items: center;
   color: white !important;
   padding-top: 0px !important;
-
+width: 100% ;
   padding-bottom: 10px !important;
-  text-align: left;
-float: right !important;
+  text-align: center !important;
+  justify-content: center !important;
+  
+
 }
 
 .home-about-body {
@@ -574,6 +583,19 @@ float: right !important;
   padding-right: 25px !important;
   height: auto !important;
 }
+.home-card {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  padding-left: 0px !important;
+  padding-right: 0 !important;
+  display: inline-grid !important;
+  justify-content: center !important;
+  justify-self: center !important;
+  text-align: center !important;
+  align-content: center !important;
+  width: inherit !important;
+  height: fit-content !important;
+}
 .EDD-card {
   padding-top: 12.5px !important;
   padding-bottom: 12.5px !important;
@@ -611,6 +633,16 @@ float: right !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
   border-radius: 2.7128572% !important;
+
+}
+.home-card-view {
+  color:  white !important;
+  background-color: transparent!important;
+  opacity: 1 !important;
+  transition: all 0.5s ease 0s !important;
+  height: fit-content !important;
+  border-radius: 2.7128572% !important;
+  border-color: transparent !important;
 
 }
 

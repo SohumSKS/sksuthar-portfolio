@@ -8,6 +8,18 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+
+
+import HomeCards from "./HomeCards";
+import Particle from "../Particle";
+import leaf from "../../Assets/Projects/leaf.png";
+import emotion from "../../Assets/Projects/emotion.png";
+import editor from "../../Assets/Projects/codeEditor.png";
+import chatify from "../../Assets/Projects/chatify.png";
+import suicide from "../../Assets/Projects/suicide.png";
+import blog from "../../Assets/Projects/blog.png";
+import ai from "../../Assets/Projects/AI.png";
+import mars from "../../Assets/Projects/mars.png";
 const ColoredLine = ({ color }) => (
   <hr className="center"
     style={{
@@ -27,8 +39,34 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container className = "mokey">
             <ColoredLine color="white"  />
+
       </Container>
+      <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+      <Col md={8} className="home-about-description2" > 
+       <Col  className="home-card" >
+            <HomeCards 
+            
+              isBlog={false}
+              title="2021 VEX EDR Robotics"
+              description="Progammed in C++ using advanced math for high fidelity sensor programming."
+              ghLink="https://github.com/sohumsuthar/VRC-2360-SIngularity-22-23"
+              //demoLink="https://docs.google.com/document/d/1lh3AYdR2V4zIdTpO24tG1HMpoaHcadkZX031bctqgSs/edit?usp=sharing"
+            />
+          </Col>
+          <Col className="home-card">
+            <HomeCards
+      
+              isBlog={false}
+              title="2020 - AI Robot for Particle Accelerators"
+              description="AI robot powered by an NVidia Jetson Nano equipped with high fidelity sensing to survey high radiation facilities."
+              ghLink="https://github.com/sohumsuthar/tunnelrobot"
+              demoLink="https://inspirehep.net/files/2caa5754c7df0c53bde506d9f3592abc"
+            />
+          </Col></Col>
+          
+          </Row>
     </Container>
+    
   );
 }
 /*

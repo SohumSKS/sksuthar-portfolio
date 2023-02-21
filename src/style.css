@@ -195,6 +195,7 @@ margin-left: 0% !important;
   padding-bottom: 1.6% !important;
   padding-top: 1.2% !important;
   height: 40px;
+  padding-left: 1%;
 }
 .navbar-nav .nav-item a {
   font-weight: 400;
@@ -273,13 +274,13 @@ margin-left: 0% !important;
 }
 
 .home-header {
-  padding-top: 80px !important;
+  padding-top: 0px !important;
 }
 
 .home-section {
   position: relative;
   z-index: -1;
-
+  height: fit-content !important;
   padding-bottom: 0px !important;
   padding-top: 0px !important;
   padding-left: 0!important;
@@ -287,7 +288,8 @@ margin-left: 0% !important;
 }
 
 .home-content {
-  padding: 6rem 0 0 0!important;
+  height: fit-content !important;
+  padding-top: 10vh !important;
   color: whitesmoke;
   text-align: center !important;
   width: fit-content !important;
@@ -355,6 +357,7 @@ margin-left: 0% !important;
 
 
 .home-about-section {
+  height: fit-content !important;
   position: relative;
   margin: 0 !important;
   padding-bottom: 20px !important;
@@ -369,8 +372,9 @@ margin-left: 0% !important;
   border-left: 1px solid black;
 }
 .home-about-description {
+  height: fit-content !important;
   color: white !important;
-  padding-top: 10px !important;
+  padding-top: 1% !important;
   padding-bottom: 20px !important;
   padding-left: 2% !important;
   text-align: center;
@@ -379,7 +383,7 @@ margin-left: 0% !important;
 }
 .home-about-description2 {
   color: white !important;
-  padding-top: 10px !important;
+  padding-top: 0px !important;
 
   padding-bottom: 10px !important;
   text-align: left;
@@ -392,7 +396,7 @@ float: right !important;
   text-align: left !important;
   margin-right: 0px !important;
   padding-right: 4%;
-  padding-left: 4% !important;
+  padding-left: 6% !important;
   width: fit-content !important;
 }
 

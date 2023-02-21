@@ -32,25 +32,28 @@ function Home() {
 
             <Col className="home-about-description">
               <p className="home-about-body">
-              <img
-                src={myImg}
-                alt="home pic"
-                className="blog-img"
+                <img
+                  src={myImg}
+                  alt="home pic"
+                  className="blog-img"
 
-                style={{ float: "left", maxHeight: "35vh", borderRadius: 25, maxWidth: "35vw", textalign: "right" }}
-              />
-                I am a passionate Engineer and Scientist
+                  style={{ float: "left", maxHeight: "35vh", borderRadius: 25, maxWidth: "35vw", textalign: "right" }}
+                />
+                <h1 className="project-heading">
+                  Sohum Suthar
+                </h1>
+                Hey! I am a Senior at Neuqua Valley High School.
                 <br />
-                
-                <br /> Fluencies:
+
+                <br /> I have a passion for 
                 <i>
-                  <b className="purple"> C++, Javascript, Python, Java, C, and more. </b>
+                  <b className="purple"> Electrical Engineering, Physics, and Robotics. </b>
                 </i>
                 <br />
                 <br />
-                My field of Interest's are:&nbsp;
+                Check out some of my&nbsp;
                 <i>
-                  <b className="purple">Electrical Engineering </b> and the
+                  <b className="purple">projects </b> and the
                   integration of {" "}
                   <b className="purple">
                     AI and Machine Learning.
@@ -58,7 +61,7 @@ function Home() {
                 </i>
                 <br />
                 <br />
-                I am a Board director on <b className="purple">mySTEMBuddy</b> and a
+                Feel free to contact me at: <b className="purple">sohumksuthar@gmail.com</b> and a
                 <i>
                   <b className="purple">
                     {" "}

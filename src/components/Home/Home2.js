@@ -37,36 +37,47 @@ const ColoredLine = ({ color }) => (
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
-      <Container className = "mokey">
-            <ColoredLine color="white"  />
+
+      <Container className="mokey">
+        <ColoredLine color="white" />
 
       </Container>
+
       <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-      <Col md={8} className="home-about-description2" > 
-       <Col  className="home-card" >
-            <HomeCards 
-            
+        <Col md={7} className="home-about-description3" >
+          <h1 className="project-heading3 mokey">
+            Catch up:
+          </h1>
+        </Col>
+        <Col md={8} className="home-about-description2" >
+
+
+          <Col className="home-card" >
+            <HomeCards
+
               isBlog={false}
-              title="2021 VEX EDR Robotics"
+              title="VEX EDR Robotics"
+              date="2021"
               description="Progammed in C++ using advanced math for high fidelity sensor programming."
               ghLink="https://github.com/sohumsuthar/VRC-2360-SIngularity-22-23"
-              //demoLink="https://docs.google.com/document/d/1lh3AYdR2V4zIdTpO24tG1HMpoaHcadkZX031bctqgSs/edit?usp=sharing"
+            //demoLink="https://docs.google.com/document/d/1lh3AYdR2V4zIdTpO24tG1HMpoaHcadkZX031bctqgSs/edit?usp=sharing"
             />
           </Col>
           <Col className="home-card">
             <HomeCards
-      
+
               isBlog={false}
-              title="2020 - AI Robot for Particle Accelerators"
+              title="AI Robot for Particle Accelerators"
+              date="2020"
               description="AI robot powered by an NVidia Jetson Nano equipped with high fidelity sensing to survey high radiation facilities."
               ghLink="https://github.com/sohumsuthar/tunnelrobot"
               demoLink="https://inspirehep.net/files/2caa5754c7df0c53bde506d9f3592abc"
             />
           </Col></Col>
-          
-          </Row>
+
+      </Row>
     </Container>
-    
+
   );
 }
 /*

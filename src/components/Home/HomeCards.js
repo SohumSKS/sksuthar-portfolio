@@ -9,6 +9,9 @@ function HomeCards(props) {
     <Card className="home-card-view">
       {props.imgPath && (<Card.Img variant="top" src={props.imgPath} />)}
       <Card.Body>
+      <Card.Text style={{ textAlign: "left", opacity: "0.6", paddingbottom: "0", height:"10px" }}>
+          {props.date}
+        </Card.Text>
         <Card.Title style={{ textAlign: "left" }} >{props.title}
           {props.demoLink && (
             <Button

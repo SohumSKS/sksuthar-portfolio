@@ -398,7 +398,22 @@ width: 100% ;
   
 
 }
+.home-about-description3 {
+  display: flex !important;
+  grid-auto-flow: row !important;
+  gap: 4px !important;
+  align-items: left !important;
+  justify-items: left !important;
+  color: white !important;
+  padding-top: 0px !important;
+width: 600px !important;
+  padding-bottom: 10px !important;
+  text-align: left !important;
+  justify-content: left !important;
+  padding-left: 3.2vmin !important;
+  
 
+}
 .home-about-body {
   padding-top: 0px !important;
   font-size: 90% !important;
@@ -584,8 +599,8 @@ width: 100% ;
   height: auto !important;
 }
 .home-card {
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
   padding-left: 0px !important;
   padding-right: 0 !important;
   display: inline-grid !important;
@@ -811,6 +826,30 @@ width: 100% ;
   text-align: left;
   height: auto !important;
   padding-left: 20px;
+}
+.project-heading3 {
+  color: white !important;
+  font-size: 1.5em !important;
+  font-weight: 500 !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  height: auto !important;
+  margin-left: 0 !important;
+  padding-right: 0 !important;
+  margin-right: auto!important;
+  padding-left: 0 !important;
+
+
+}
+.project-heading {
+  color: white !important;
+  font-size: 2.3em !important;
+  font-weight: 500 !important;
+  padding-top: 0px !important;
+  padding-bottom: 10px !important;
+  text-align: left;
+  height: auto !important;
+  padding-left: 0px;
 }
 .project-heading-SCORT {
   color: white !important;

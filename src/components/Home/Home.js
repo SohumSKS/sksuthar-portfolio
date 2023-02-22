@@ -39,7 +39,7 @@ function Home() {
 
                   style={{ float: "left", maxHeight: "35vh", borderRadius: 25, maxWidth: "35vw", textalign: "right" }}
                 />
-                <h1 className="project-heading">
+                <h1 className="project-heading2">
                   Sohum Suthar
                 </h1>
                 Hey! I am a Senior at Neuqua Valley High School.

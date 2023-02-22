@@ -399,19 +399,18 @@ width: 100% ;
 
 }
 .home-about-description3 {
-  display: flex !important;
   grid-auto-flow: row !important;
   gap: 4px !important;
   align-items: left !important;
   justify-items: left !important;
   color: white !important;
   padding-top: 0px !important;
-width: 600px !important;
+width: 550px !important;
   padding-bottom: 10px !important;
   text-align: left !important;
   justify-content: left !important;
-  padding-left: 3.2vmin !important;
-  
+  padding-left: 0 !important;
+  padding-right: 0  !important;
 
 }
 .home-about-body {
@@ -608,7 +607,7 @@ width: 600px !important;
   justify-self: center !important;
   text-align: center !important;
   align-content: center !important;
-  width: inherit !important;
+  width: 50 !important;
   height: fit-content !important;
 }
 .EDD-card {
@@ -838,6 +837,30 @@ width: 600px !important;
   padding-right: 0 !important;
   margin-right: auto!important;
   padding-left: 0 !important;
+
+
+}
+
+.spacecringe{
+  font-size: small !important;
+}
+.project-heading4 {
+  color: white !important;
+  font-size: 1.5em !important;
+  font-weight: 500 !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  justify-content: left !important;
+  justify-self: left !important;
+  justify-items: left !important;
+  align-items: left !important;
+  height: auto !important;
+  margin-left: 0 !important;
+  padding-right: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  margin-bottom: 0 !important;
+  height: 25px !important;
 
 
 }

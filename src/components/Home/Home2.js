@@ -42,14 +42,17 @@ function Home2() {
         <ColoredLine color="white" />
 
       </Container>
-
-      <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={7} className="home-about-description3" >
-          <h1 className="project-heading3 mokey">
-            Catch up:
+      <Container>
+      <Row style={{ justifyContent: "left" }}>
+        <Col md={50} >
+          <h1 className="project-heading4 " style={{justifyContent: "left", alignContent: "left", paddingBottom: "0"}}>
+            Catch up: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
           </h1>
         </Col>
-        <Col md={8} className="home-about-description2" >
+        </Row>
+        </Container>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={8} className="home-about-description3" >
 
 
           <Col className="home-card" >
@@ -74,8 +77,8 @@ function Home2() {
               demoLink="https://inspirehep.net/files/2caa5754c7df0c53bde506d9f3592abc"
             />
           </Col></Col>
+          </Row>
 
-      </Row>
     </Container>
 
   );

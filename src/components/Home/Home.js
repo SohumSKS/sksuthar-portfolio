@@ -42,7 +42,18 @@ function Home() {
                 <h1 className="project-heading2">
                   Sohum Suthar
                 </h1>
-                Hey! I am a Senior at Neuqua Valley High School.
+                Hey! I am a
+          
+                <i>
+                  <b className="purple">
+                    {" "}
+                    Senior
+                  </b>
+                </i>
+                &nbsp; at
+                <i>
+                  <b className="purple"> Neuqua Valley High School</b>
+                </i>
                 <br />
 
                 <br /> I have a passion for 
@@ -54,9 +65,9 @@ function Home() {
                 Check out some of my&nbsp;
                 <i>
                   <b className="purple">projects </b> and my {}
-                  <b className="purple">
+                  <a href="https://google.com" className="purple">
                     github.
-                  </b>
+                  </a>
                 </i>
                 <br />
                 <br />

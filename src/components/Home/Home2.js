@@ -52,7 +52,7 @@ function Home2() {
         </Row>
         </Container>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={8} className="home-about-description3" >
+        <Col md={8} className="home-about-description3 mokey" style={{ maxWidth: "90%"}} >
 
 
           <Col className="home-card" >

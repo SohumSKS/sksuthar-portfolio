@@ -377,7 +377,7 @@ margin-left: 0% !important;
   height: fit-content !important;
   color: white !important;
   padding-top: 1% !important;
-  padding-bottom: 20px !important;
+  padding-bottom: 10px !important;
   padding-left: 2% !important;
   text-align: center;
 
@@ -405,11 +405,12 @@ width: 100% ;
   justify-items: left !important;
   color: white !important;
   padding-top: 0px !important;
-width: 550px !important;
+width: 600px !important;
   padding-bottom: 10px !important;
   text-align: left !important;
   justify-content: left !important;
   padding-left: 0 !important;
+  display: inline-block !important;
   padding-right: 0  !important;
 
 }

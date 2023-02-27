@@ -68,6 +68,14 @@ function Projects() {
             <ProjectCard
               //imgPath={chatify}
               isBlog={false}
+              title="Element E/F"
+              demoLink="https://docs.google.com/document/d/1lcK8ed_xVtHKk3RiLBCGoNePYEaWpuBW1FDbA8rmxjo/edit"
+              description="STEM Principles and Design Viability" />
+          </Col>
+          <Col md={4} className="EDD-card">
+            <ProjectCard
+              //imgPath={chatify}
+              isBlog={false}
               title="Element G"
               demoLink="https://docs.google.com/document/d/1GYm16wmiAligBJl5F19Wdar4SiL-xrEtctslzXiREwM/edit#heading=h.pu36syunw4t0"
               description="Prototype Build Plan" />

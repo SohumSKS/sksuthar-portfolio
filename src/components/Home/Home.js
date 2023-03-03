@@ -39,7 +39,7 @@ function Home() {
 
                   style={{ float: "left", maxHeight: "35vh", borderRadius: 25, maxWidth: "35vw", textalign: "right" }}
                 />
-                <h1 className="project-heading2">
+                <h1 className="project-heading6">
                   Sohum Suthar
                 </h1>
                 Hey! I am a Senior at Neuqua Valley High School.
@@ -47,29 +47,30 @@ function Home() {
 
                 <br /> I have a passion for 
                 
-                  <a href = {"https://www.sohumsuthar.com/"} className="purple"> Electrical Engineering, Physics, and Robotics. </a>
+                  <b href = {"https://www.sohumsuthar.com/"} className="purple"> Electrical Engineering, Physics, and Robotics. </b>
                 
                 <br />
                 <br />
                 Check out some of my&nbsp;
-                <i>
+             
                   <b className="purple">projects </b> and my {}
                   <b className="purple">
                     github.
                   </b>
-                </i>
+      
                 <br />
                 <br />
-                Feel free to email me at: <b className="purple">sohumksuthar@gmail.com</b> or connect with me on
-                <i>
+                Feel free to email me at: <b className="purple"> sohumksuthar@gmail.com </b>
+                or connect with me on
+            
                   <b className="purple">
                     {" "}
                   </b>
-                </i>
-                &nbsp; 
-                <i>
-                  <b className="purple">LinkedIn </b>
-                </i>
+           
+    
+            
+                  <b className="purple">LinkedIn</b>
+           
               </p>
 
 

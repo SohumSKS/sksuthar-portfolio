@@ -88,6 +88,14 @@ function Projects() {
               demoLink="https://docs.google.com/document/d/1w2pMy-RvMidXPuNn6O4HXCIl5CZnFJVeTU4_yrqg5Yk/edit#heading=h.pzqzsbphsihq"
               description="Prototype Testing & Data Collection Plan" />
           </Col>
+          <Col md={4} className="EDD-card">
+            <ProjectCard
+              //imgPath={chatify}
+              isBlog={false}
+              title="Element I"
+              demoLink="https://docs.google.com/document/d/1dZPC2oYv99T7uhqPKaIobavnggJnTu-g14_EK8D-fJk/edit"
+              description="Test & Evaluate the Prototype" />
+          </Col>
         </Row>
       </Container>
 
